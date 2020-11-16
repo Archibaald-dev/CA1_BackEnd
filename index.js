@@ -2,8 +2,8 @@ const express = require("express");
 const app = express();
 const { MongoClient, ObjectId } = require("mongodb");
 
-// Replace the following with your Atlas connection string
-const url = "mongodb+srv://MiloL23227:OIG9R38kpCe7E5Dw@cluster0.yj877.azure.mongodb.net/gundam-db?retryWrites=true&w=majority"
+// Place your Atlas connection string here
+const url = ""
 const client = new MongoClient(url, { useUnifiedTopology: true });
 
 //The database to use (Db : gundam-db , collection name : gundam)
